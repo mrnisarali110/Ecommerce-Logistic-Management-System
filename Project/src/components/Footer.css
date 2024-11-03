@@ -1,0 +1,62 @@
+.footer {
+  background-color: #343a40;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-icons a {
+  font-size: 1.5rem;
+}
+
+.footer-icons a:hover {
+  color: #007bff;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer a:hover {
+  color: #f8c471;
+  text-decoration: underline;
+}
+
+.input-group .form-control {
+  border-radius: 0;
+}
+
+.input-group .btn-outline-light {
+  border-radius: 0;
+}
+
+/* Default icon color (white) */
+.footer-icons a i {
+color: white;
+transition: color 0.3s ease;
+}
+
+/* Facebook original brand color on hover */
+.footer-icons a:hover .bi-facebook {
+color: #3b5998; /* Facebook brand color */
+}
+
+/* LinkedIn original brand color on hover */
+.footer-icons a:hover .bi-linkedin {
+color: #0077b5; /* LinkedIn brand color */
+}
+
+/* Instagram original brand color on hover */
+.footer-icons a:hover .bi-instagram {
+color: #e1306c; /* Instagram brand color */
+}
+
+/* YouTube original brand color on hover */
+.footer-icons a:hover .bi-youtube {
+color: #ff0000; /* YouTube brand color */
+}
+
+/* WhatsApp original brand color on hover */
+.footer-icons a:hover .bi-whatsapp {
+color: #25d366; /* WhatsApp brand color */
+}

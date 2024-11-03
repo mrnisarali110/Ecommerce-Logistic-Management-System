@@ -1,0 +1,27 @@
+.header {
+    background-color: #f8f9fa !important; /* Light background */
+    padding: 20px; /* Padding around the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust logo height */
+  }
+  
+  .navigation {
+    list-style: none; /* Remove bullet points from list */
+    display: flex; /* Use flexbox for navigation items */
+    gap: 15px; /* Space between navigation items */
+  }
+  
+  .navigation li {
+    display: inline; /* Display items inline */
+  }
+  
+  .navigation a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+  }
+  

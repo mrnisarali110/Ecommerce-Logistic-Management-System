@@ -1,0 +1,177 @@
+/* Admin Dashboard Styles */
+.admin-dashboard-modern {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Title Styles */
+.dashboard-title {
+  font-size: 28px;
+  color: #007bff; /* Bootstrap primary color for title */
+  margin-bottom: 20px;
+}
+
+/* Dashboard Controls */
+.dashboard-controls {
+  display: flex;
+  justify-content: space-between; /* Align buttons in a row */
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.control-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.order-id{
+  text-align: center;
+}
+.control-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+/* Users Section */
+.user-section {
+  margin: 20px 0;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.admin-dashboard-modern {
+  display:contents;
+}
+.user-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-name, .user-email, .user-role {
+  font-size: 14px;
+  color: #34495e;
+  margin: 5px 0;
+}
+
+/* Orders Section */
+.order-section {
+  margin: 20px 0;
+}
+
+.order-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.order-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between; /* Align Order ID and Receiver ID */
+  margin-bottom: 10px;
+}
+
+.order-details {
+  font-size: 14px;
+  color: #34495e;
+}
+
+.status-toggle {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 20px; /* Rounded slider */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%; /* Round knob */
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #007bff; /* Blue when active */
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px); /* Move knob right when checked */
+}
+.search-container {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Add some space below the search bar */
+}
+.search-bar {
+  width: 75%; /* Set width of the input */
+  padding: 5px 30px 5px 10px; /* Add padding to prevent text from overlapping with the icon */
+  margin-right: 10px; /* Space between input and icon */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.search-icon {
+  /* Ensure the icon styles remain the same */
+  font-size: 18px;
+  color: #888; /* Light gray for the icon */
+  pointer-events: none; /* Prevent clicking */
+}
